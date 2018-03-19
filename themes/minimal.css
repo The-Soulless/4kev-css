@@ -1,0 +1,72 @@
+/* Written by Desu#9179 on Discord, and the-soulless on github*/
+
+html {
+    color: #000;
+    background-color: #FFF;
+}
+
+a {
+    color: #00F;
+    text-decoration: underline;
+}
+
+p {
+    color: #000;
+}
+
+button {
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #000;
+}
+
+hr {
+    color: #000;
+}
+
+#preview {
+    border: 1px solid #000;
+}
+
+.close {
+    color: #000;
+}
+.close:hover, .close:focus {
+    color: #F00;
+}
+
+.bgImage {
+    background: #FFF;
+}
+
+.subject { color: #000; }
+.info    { color: #000; }
+.redtext { color: #F00; }
+.adminLogo { content: "Admin##"; color: #F0F; }
+.modLogo { content: "Mod##"; color: #F00; }
+.userName { color: #000; font-weight:bold; }
+.topSpacing { height: 40px; }
+.arrow { color: #000; }
+.redArrow { color: #F00; }
+
+.boards {
+    color: #00F;
+    background-color: #FFF;
+    border: 1px solid #000;
+}
+
+.modBtn {
+    color: #00F;
+    background-color: #FFF;
+    border: 1px solid #000;
+}
+
+#boardName {
+    color: #000;
+}
+
+.form {
+    background-color: #FFF;
+}
+
+
