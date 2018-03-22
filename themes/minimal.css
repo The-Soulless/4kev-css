@@ -1,5 +1,4 @@
-/* Written by Desu#9179 on Discord, and the-soulless on github*/
-
+/* Written by Desu#9179 on Discord, and the-soulless on github*/ 
 html {
     color: #000;
     background-color: #FFF;
@@ -15,8 +14,6 @@ p {
 }
 
 button {
-    color: #000;
-    background-color: #FFF;
     border: 1px solid #000;
 }
 
@@ -42,8 +39,8 @@ hr {
 .subject { color: #000; }
 .info    { color: #000; }
 .redtext { color: #F00; }
-.adminLogo { content: "Admin##"; color: #F0F; }
-.modLogo { content: "Mod##"; color: #F00; }
+.adminLogo { color: #F0F; }
+.modLogo {  color: #F00; }
 .userName { color: #000; font-weight:bold; }
 .topSpacing { height: 40px; }
 .arrow { color: #000; }
@@ -51,22 +48,69 @@ hr {
 
 .boards {
     color: #00F;
-    background-color: #FFF;
+    text-decoration: underline;
     border: 1px solid #000;
+}
+
+.catalog:hover {
+    background: #777;
 }
 
 .modBtn {
     color: #00F;
-    background-color: #FFF;
     border: 1px solid #000;
 }
 
-#boardName {
+#boardlist_background {
+    background: #FFF;
+}
+#boardlist {
+    border-right: 1px solid #000;
+}
+
+.post {
+    border: 1px solid #000;
+}
+.op {
+    border: 1px solid #000;
+}
+
+#login, #showLogin, #loggedIn {
+    border: 1px solid #000;
     color: #000;
+    background: #FFF;
 }
 
-.form {
+#searchForm {
+    color: #000;
+    background: #FFF;
+}
+
+#showForm {
+    border: 1px solid #000;
+    color: #000;
+    background: #FFF;
+}
+
+button {
+    border: 1px solid #000;
+    color: #000;
+    background: #FFF;
+}
+
+input {
+    border: 1px solid #000;
+    color: #000;
+    background: #FFF;
+}
+
+.banner {
+    display: none;
+}
+
+.pageButton {
     background-color: #FFF;
-}
-
+    color: #000;
+    border: 1px solid #000;
+}   
 

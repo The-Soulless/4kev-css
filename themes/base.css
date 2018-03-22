@@ -1,10 +1,8 @@
 a {
     cursor:pointer;
-    text-decoration: none;
 }
 p {
     margin: 5px;
-    /*font-family: Courier, "Lucida Console", monospace;*/
     font-family: Helvetica;
     font-size: 10pt;
 }
@@ -21,7 +19,6 @@ body {
 }
 button {
   cursor: pointer;
-  border: none;
 }
 
 img {
@@ -81,8 +78,6 @@ img {
     line-height: 30px;
     border-radius: 5px;
     overflow: hidden;
-    -webkit-transition: background-color .3s;
-    transition: background-color .3s;
 }
 .modInput {
     margin: 2px;
@@ -95,28 +90,13 @@ img {
 
 #boardName {
     font-size: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 .form {
     font-size: 10pt;
     display:inline-block;
     overflow: hidden;
-}
-
-@keyframes glowing {
-  0% { filter: brightness(50%); }
-  40% { filter: brightness(100%); }
-  60% { filter: brightness(100%); }
-  100% { filter: brightness(50%); }
-}
-
-@keyframes shine {
-  0% { filter: brightness(300%); }
-  40% { filter: brightness(100%); }
-  60% { filter: brightness(100%); }
-  100% { filter: brightness(300%); }
 }
 
 .smallUrl {
@@ -138,17 +118,9 @@ img {
     z-index: 999;
     width: 10%;
     height:100%;
-    
     line-height: 30px;
     overflow: auto;
     background-size: 100%;
-}
-#boardlist_background {
-    animation: glowing 5000ms infinite;
-}
-
-.nameGlow {
-    animation: shine 2000ms infinite;
 }
 
 #footer {
@@ -156,7 +128,6 @@ img {
 }
 .post {
     font-size: 10pt;
-
     display: inline-block;
     margin: 5px;
     margin-bottom: 0px;
@@ -191,9 +162,7 @@ img {
     width:30px;
 
 }
-.pageButton:hover {
 
-}
 .catalog {
     margin: 5px;
     padding: 5px;
@@ -204,14 +173,7 @@ img {
     width:14%;
     overflow: hidden;
 }
-.catalog:hover {
-}
-.spoiler {
-}
-.spoiler:hover {
-    color: inherit;
-    background-color: inherit;
-}
+
 .santahat {
     height: 40px;
     width: 50px;
@@ -221,4 +183,7 @@ img {
 }
 .code {
     font-family: Courier, "Lucida Console", monospace;
+}
+.bgImage {
+    text-align: center;
 }
