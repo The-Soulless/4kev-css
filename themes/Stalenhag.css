@@ -1,8 +1,3 @@
-* {
-	font-family: scientifica !important;
-	font-size: 9 !important;
-	/* How 2 write bad code: Do this */
-}
 a {
 	color: #485C4d;
 	text-decoration: none;
@@ -121,4 +116,9 @@ hr {
 	color: #95bab1;
 }
 
-
+* {
+	font-family: "scientifica", "xos4-terminus", "terminus", "monospace" !important;
+	font-size: 9 !important;
+	/* How 2 write bad code: Do this */
+}
+/* The Scientifica font can be found at: https://github.com/NerdyPepper/scientifica */
