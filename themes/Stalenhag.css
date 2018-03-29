@@ -115,8 +115,8 @@ hr {
 	background: rgba(0, 22, 29, 0.5);
 	color: #95bab1;
 }
-
-* {
+/* Unfortunately this doesn't work since modern web browsers don't support bitmap fonts. */
+/* {
 	font-family: "scientifica", "xos4-terminus", "terminus", "monospace" !important;
 	font-size: 9 !important;
 	/* How 2 write bad code: Do this */
